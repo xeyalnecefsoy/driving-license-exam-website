@@ -1,4 +1,4 @@
-import { Info, AlertCircle, FileText, BookOpen } from "lucide-react";
+import { Info, AlertCircle, FileText, BookOpen, Car } from "lucide-react";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Metadata } from "next";
@@ -23,6 +23,16 @@ export default function ReferencePage() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <Link href="/reference/basics" className="group">
+          <div className="bg-card p-6 rounded-xl shadow-sm border border-border hover:border-primary transition-all group-hover:shadow-md h-full">
+             <div className="w-12 h-12 bg-indigo-50 dark:bg-indigo-900/20 rounded-lg flex items-center justify-center mb-4">
+               <Car className="w-6 h-6 text-indigo-600 dark:text-indigo-400" />
+             </div>
+             <h2 className="text-lg font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">Avtomobil İlkin Biliklər</h2>
+             <p className="text-secondary text-sm">Avtomobilin quruluşu, işləmə prinsipləri və yeni başlayanlar üçün bələdçi.</p>
+          </div>
+        </Link>
+
         <Link href="/reference/signs" className="group">
           <div className="bg-card p-6 rounded-xl shadow-sm border border-border hover:border-primary transition-all group-hover:shadow-md h-full">
              <div className="w-12 h-12 bg-blue-50 dark:bg-blue-900/20 rounded-lg flex items-center justify-center mb-4 text-primary">

@@ -129,7 +129,7 @@ export function ActionGrid({
             <Info className="w-5 h-5 text-white" />
           </div>
           <span className="text-sm font-medium text-foreground">Məlumat</span>
-          <span className="text-xs text-secondary">Nişan və cərimə</span>
+          <span className="text-xs text-secondary">Nişan, cərimə və bilik</span>
         </Link>
       </div>
     </div>
